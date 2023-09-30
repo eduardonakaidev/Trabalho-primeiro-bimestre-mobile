@@ -26,6 +26,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:id="@+id/spCliente"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O cliente deve ser selecionado!!"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="right"
+        android:id="@+id/tvErroCliente"
+        android:visibility="gone"/>
 
     <ScrollView
         android:layout_width="match_parent"
