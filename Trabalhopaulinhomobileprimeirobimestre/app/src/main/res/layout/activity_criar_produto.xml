@@ -34,7 +34,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/InputCodigo"
+            android:id="@+id/inputCodigo"
             android:lines="1"
             android:layout_marginBottom="4dp"
             />
@@ -46,7 +46,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/InputDescricao"
+            android:id="@+id/inputDescricao"
             android:lines="1"
             android:layout_marginBottom="4dp"
             />
@@ -58,7 +58,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/InputValor"
+            android:id="@+id/inputValor"
             android:lines="1"
             android:inputType="number"
             android:layout_marginBottom="4dp"
@@ -69,13 +69,15 @@
             android:text="Cadastrar Produto"
             android:textSize="18sp"
             android:layout_gravity="center"
-            android:id="@+id/ButtonCadastrarProduto"/>
-
-
-
+            android:id="@+id/buttonCadastrarProduto"/>
 
     </LinearLayout>
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:id="@+id/tvProdutosCriados"/>
 
 </LinearLayout>
