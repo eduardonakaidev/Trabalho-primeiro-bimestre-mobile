@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:minHeight="48dp"
         android:id="@+id/spCliente"/>
     <TextView
         android:layout_width="match_parent"
@@ -44,6 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:minHeight="48dp"
         android:id="@+id/spProduto"/>
     <TextView
         android:layout_width="match_parent"
@@ -53,6 +55,15 @@
         android:layout_gravity="right"
         android:id="@+id/tvErroProduto"
         android:visibility="gone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:lines="1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="1"
+        android:id="@+id/edQuantidade"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -99,6 +110,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="á vista"
+            android:checked="true"
             android:id="@+id/rbaVista"/>
 
         <RadioButton
@@ -109,6 +121,20 @@
             android:id="@+id/rbaPrazo"/>
 
     </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Definir Forma de pagamento"
+        android:id="@+id/btDefinirFormaPagamento"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:text="1"
+        android:id="@+id/edNumeroParcelas"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

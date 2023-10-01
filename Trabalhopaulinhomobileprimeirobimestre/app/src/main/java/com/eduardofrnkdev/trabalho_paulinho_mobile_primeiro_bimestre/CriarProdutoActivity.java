@@ -66,7 +66,7 @@ public class CriarProdutoActivity extends AppCompatActivity {
     }
     private  void atualizarListaProdutos(){
         String texto = "";
-        for (Produto produto : Controllers.getInstance().retornarProduto()) {
+        for (Produto produto : Controllers.getInstance().retornarProdutos()) {
             texto += "Codigo: "+produto.getCodigo()+" - "+produto.getDescricao()+"-"+produto.getValor()+"\n";
         }
         tvProdutosCriados.setText(texto);

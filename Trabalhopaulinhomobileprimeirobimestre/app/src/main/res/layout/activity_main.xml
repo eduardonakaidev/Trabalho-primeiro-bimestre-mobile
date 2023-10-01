@@ -38,6 +38,30 @@
         android:textSize="24sp"
         android:id="@+id/navCadastrarCliente"
         android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Digite o Codigo do pedido"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/etCodigoPedidoRetornar"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:id="@+id/tvRetornarPedido"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retornar Pedido"
+        android:textSize="16sp"
+        android:id="@+id/btRetornarPedido"
+        />
 
 
 

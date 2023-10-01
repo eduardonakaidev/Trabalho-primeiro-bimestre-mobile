@@ -38,7 +38,7 @@ public class Controllers {
         listaProdutos.add(produto);
     }
 
-    public ArrayList<Produto> retornarProduto() {
+    public ArrayList<Produto> retornarProdutos() {
         return listaProdutos;
     }
     public void salvarVenda(Venda venda){
