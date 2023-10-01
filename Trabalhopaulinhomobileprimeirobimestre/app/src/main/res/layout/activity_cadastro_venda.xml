@@ -10,16 +10,22 @@
 
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="Gerar Codigo Pedido"
         android:id="@+id/btGerarCodigoPedido"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/tvCodigoGerado"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cliente"
+        android:textSize="28sp"
         android:layout_marginTop="10dp"/>
     <Spinner
         android:layout_width="match_parent"
@@ -27,44 +33,61 @@
         android:layout_marginTop="10dp"
         android:id="@+id/spCliente"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="O cliente deve ser selecionado!!"
         android:textColor="@android:color/holo_red_dark"
         android:layout_gravity="right"
         android:id="@+id/tvErroCliente"
         android:visibility="gone"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spProduto"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="O Produto deve ser selecionado!!"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="right"
+        android:id="@+id/tvErroProduto"
+        android:visibility="gone"/>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:layout_margin="10dp"
-                android:id="@+id/tvListaProdutosSelecionados"/>
-            <TextView
-                android:layout_width="wrap_content"
+                android:id="@+id/tvListaProdutosSelecionados"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:textSize="16sp"
-                android:id="@+id/tvValorTotal"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:textSize="16sp"
-                android:id="@+id/tvContItensSelecionados"/>
+                android:textSize="20sp" />
 
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textSize="16sp"
+        android:lines="1"
+    android:id="@+id/tvValorTotal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:lines="1"
+        android:id="@+id/tvContItensSelecionados"/>
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -87,7 +110,7 @@
 
     </RadioGroup>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24sp"
         android:text="Salvar Venda"
