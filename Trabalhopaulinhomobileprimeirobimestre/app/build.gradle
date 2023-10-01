@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.eduardofrnkdev.trabalho_paulinho_mobile_primeiro_bimestre'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.eduardofrnkdev.trabalho_paulinho_mobile_primeiro_bimestre"
         minSdk 24
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
